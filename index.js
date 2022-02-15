@@ -5,3 +5,8 @@ document.getElementById("button").onclick=function(){
     // Make the button dissapear
     document.getElementById("button").style.display='none';
 }
+
+var username;
+username=prompt();
+message = "Your name is " + username
+console.log(message)
