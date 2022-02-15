@@ -1,6 +1,6 @@
-var username;
+/*var username;
 username=prompt();
-message = "Your name is " + username
+message = "Hello " +username+ " thanks for ordering with Zamz"
 console.log(message)
 
 document.getElementById("button").onclick=function(){
@@ -9,4 +9,17 @@ document.getElementById("button").onclick=function(){
 
     // Make the button dissapear
     document.getElementById("button").style.display='none';
+}*/
+
+// Grouping variables
+let person={
+    name:"Andre",
+    age: 21,
+    favfood:"fries",
+    fun:function(){
+        console.log("Yayy");
+    }
 }
+
+person.name
+person.fun();
